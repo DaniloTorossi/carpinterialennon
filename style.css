@@ -9,7 +9,6 @@ body {
     width: 100%;
     height: 100%;
     max-height: 1920px;
-    background-color: black;
     }
 
 /* Cabecera de pantalla */
@@ -141,7 +140,7 @@ nav a:hover {
     border-radius: 10px;
     }
 .color {
-  background-color: rgb(8, 8, 68);
+  background-color: rgb(239, 239, 243);
 }
 /* Pie de pagina */
 
@@ -270,7 +269,7 @@ fieldset {
   height: 100%;
   margin: auto;
   align-items: center;
-  background-color: rgb(8, 8, 68);
+  background-color: rgb(150, 150, 150);
     }
 .div3 {
   display: flex;
@@ -279,7 +278,7 @@ fieldset {
   color: whitesmoke;
   font-size: 1rem;
   border: 1px solid grey;
-  background-color: rgb(8, 8, 68);
+  background-color: rgb(150, 150, 150);
   width: 100%;
   margin: auto;
         }
