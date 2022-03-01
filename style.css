@@ -27,6 +27,19 @@ body {
   background-image: url(fondo.jpg);
   background-size: cover;
         }
+.header2 {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        width: 100%;
+        justify-content: center;
+        background-image: url(/fondo.jpg);
+        background-size: cover;
+        }
+
 .lennon {
         font-family: cursive;
         font-variant: small-caps;  
@@ -184,8 +197,6 @@ div p {
         justify-content: center;
         }  
         
-
-
 /* Formulario */
 form {
   margin-top: 1rem;
