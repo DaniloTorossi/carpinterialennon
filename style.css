@@ -192,7 +192,7 @@ form {
   flex-wrap: wrap;
     }
 .fondo-formulario {
-  background-image: url(imagenes/madera.jpg);
+  background-image: url(../imagenes/madera.jpg);
   background-size: cover;
 }
 
@@ -221,7 +221,7 @@ fieldset {
 
 /* Valores */
 .fondo-valores {
-  background-image: url(imagenes/madera.jpg);
+  background-image: url(../imagenes/madera.jpg);
   background-size: cover;
   color: white;
 }
