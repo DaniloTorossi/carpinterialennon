@@ -93,10 +93,8 @@ a   {
 
 /* Pie de pagina */
 
-footer {
-    background-color: black;
-    position: fixed;
-    bottom: 0;
+.footer {
+    background-color: black; 
 }
 
 /* Nosotros */
@@ -153,8 +151,8 @@ form {
   width: 5rem;
   flex-wrap: wrap;
     }
-.fondo-formulario {
-  background-image: url(./imagenes/madera.jpg);
+.formulario {
+  background-image: url(imagenes/madera.jpg);
   background-size: cover;
 }
 
@@ -182,8 +180,8 @@ fieldset {
       }
 
 /* Valores */
-.fondo-valores {
-  background-image: url(./imagenes/madera.jpg);
+.valores {
+  background-image: url(imagenes/madera.jpg);
   background-size: cover;
   color: white;
 }
