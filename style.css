@@ -63,47 +63,6 @@ a   {
     color: whitesmoke;
     
     }
-
-
-.opcion1 {
-    background-color: rgb(100, 105, 101);
-    border-style: inset;
-    border-radius: 10px;
-    box-shadow: 4px 2px rgb(63, 62, 62);
-    border-color: rgb(121, 124, 123);
-    }
-
-nav a:hover {
-  background-color: #90a1a1;
-}
-.opcion2 {
-  background-color: rgb(100, 105, 101);
-  border-style: inset;
-  border-radius: 10px;
-  box-shadow: 4px 2px rgb(63, 62, 62);
-  border-color: rgb(97, 117, 111);
-}     
-
-.opcion3 {
-  background-color: rgb(100, 105, 101);
-  border-style: inset;
-  border-radius: 10px;
-  box-shadow: 4px 2px rgb(63, 62, 62);
-  border-color: rgb(97, 117, 111);
-}
-
-.opcion4 {
-  background-color: rgb(100, 105, 101);
-  border-style: inset;
-  border-radius: 10px;
-  box-shadow: 4px 2px rgb(63, 62, 62);
-  border-color: rgb(97, 117, 111);
-}
-#espacio {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  }
-
 /* Div de imagenes */
 .h2 {
   color: whitesmoke;
@@ -131,10 +90,16 @@ nav a:hover {
 .color {
   background-color: rgb(239, 239, 243);
 }
+
+
+
+
 /* Pie de pagina */
 
 footer {
     background-color: black;
+    position: fixed;
+    bottom: 0;
 }
 
 /* Nosotros */
