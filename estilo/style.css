@@ -160,6 +160,12 @@ section .form {
   border-radius: 4px;
   font-family: 'Times New Roman', Times, serif; }
 
+.fondo-contacto {
+  background-color: white;
+  color: #0500d3da; }
+  .fondo-contacto p {
+    font-size: 1rem; }
+
 /* Valores */
 .valores {
   background-image: url(../imagenes/madera.jpg);
