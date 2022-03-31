@@ -55,6 +55,7 @@ a {
   text-decoration: none;
   color: whitesmoke; }
 
+/*Servicios*/
 /* Div de imagenes */
 .h2 {
   color: whitesmoke;
@@ -86,29 +87,26 @@ a {
   background-color: black; }
 
 /* Nosotros */
-div p {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 1.5rem;
-  text-align: center;
-  white-space: inherit;
-  margin-top: 5rem; }
-
-.colortxt {
-  color: whitesmoke;
-  background-color: black; }
-
 .foto {
-  height: 100%;
-  width: 100%;
-  text-align: center; }
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px  2px grey;
+  opacity: 0.9;
+  z-index: 10; }
 
-#foto {
-  height: 100%;
-  max-height: 400px;
-  width: 100%;
-  max-width: 400px;
-  border-radius: 2px; }
+.foto-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .foto-contenedor p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    white-space: inherit;
+    margin-top: 5rem;
+    color: #212529; }
 
 #h1 {
   text-align: center;
@@ -168,7 +166,6 @@ section .form {
 
 /* Valores */
 .valores {
-  background-image: url(../imagenes/madera.jpg);
   background-size: cover;
   color: white; }
 
@@ -188,3 +185,49 @@ section .form {
     .navbar-nav:hover {
       border: 2px solid #474758;
       border-radius: 10%; } }
+
+/*servicios*/
+.color-box {
+  background-color: #dee2e6;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+  z-index: 3;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px; }
+  .color-box p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, fantasy;
+    text-align: center; }
+  .color-box h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; }
+
+/* nosotros */
+.img-fondo {
+  background-image: url(/imagenes/herramientas.png);
+  background-color: #212529;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2%;
+  box-shadow: 0px 0px 8px black;
+  opacity: 1;
+  z-index: -5; }
+  .img-fondo p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #212529;
+    z-index: 10;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    white-space: inherit;
+    margin-top: 5rem; }
+
+div p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-align: center;
+  white-space: inherit;
+  margin-top: 5rem; }
