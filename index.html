@@ -13,7 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
-    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Pacifico&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="main.js">
@@ -27,7 +29,7 @@
             <div class="row">
                   <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Lennon</a>
+                        <a class="navbar-brand letra-nav" href="#">Lennon</a>
 <!--boton para menu desplegable-->
             <button
           class="navbar-toggler"
@@ -42,10 +44,10 @@
                          <div class="collapse navbar-collapse" id="navbarNav">
                             <div class="mx-auto"></div>
                               <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#about">Sobre Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#services">Servicios</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#contact">Contacto</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#testimonials">Galeria</a></li>
+                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#nosotros">Sobre Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#servicios">Servicios</a></li>
+                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#galeria">Galeria</a></li>
+                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#contacto">Contacto</a></li>
                               </ul>
                          </div>
                     </div>
@@ -65,9 +67,9 @@
     
 <!--Seccion de servicios-->
 
-  <div class="container-fluid">
+  <div class="container-fluid servicios">
     <div class="text-center"> <h2> Nuestros Servicios </h2> </div>
-      <article id="#servicios">
+      <article id="servicios">
         <div class="container text-center">
             <div class="row">
               <div class="col">
@@ -103,7 +105,7 @@
     </div>
 <!--Seccion Nosotros-->
 
-<section id="#nosotros">
+<section id="nosotros">
     <main class="container">
       <div class="text-center">
         <h1> ¿Quienes Somos? </h1>
@@ -160,7 +162,7 @@
   </section>
 
 <!--Galeria-->
-<section id="#galeria">
+<section id="galeria">
     <main>
         <div class="container-fluid box-color-galeria">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -173,7 +175,7 @@
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="/imagenes/cocina2.jpg" class="d-block imagenes" alt="cocina">
+                    <img src="../imagenes/cocina2.jpg" class="d-block imagenes" alt="cocina">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Amueblado de cocina completa</h5>
                       <p>Trabajo realizado intengramente a medida</p>
@@ -181,7 +183,7 @@
                     </div>
       
                     <div class="carousel-item">
-                    <img src="/imagenes/segundacocina.jpg" class="d-block imagenes" alt="isla flotante">
+                    <img src="../imagenes/segundacocina.jpg" class="d-block imagenes" alt="isla flotante">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Cocina con isla flotante</h5>
                       <p>Amueblamiento para una cocina a estrenar</p>
@@ -189,7 +191,7 @@
                     </div>
 
                     <div class="carousel-item">
-                    <img src="/imagenes/cocina3.jpg" class="d-block imagenes alt="isla flotante">
+                    <img src="../imagenes/cocina3.jpg" class="d-block imagenes alt="isla flotante">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Amueblamiento de cocina</h5>
                       <p>Totalmente realizado en MDF color Wenge</p>
@@ -197,7 +199,7 @@
                     </div>
 
                     <div class="carousel-item">
-                    <img src="/imagenes/cocina2.jpg" class="d-block imagenes alt="isla flotante">
+                    <img src="../imagenes/cocina2.jpg" class="d-block imagenes alt="isla flotante">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Cocina con isla flotante</h5>
                       <p>Amueblamiento para una cocina a estrenar</p>
@@ -205,7 +207,7 @@
                     </div>
       
                     <div class="carousel-item">
-                    <img src="/imagenes/mesa.jpg" class="d-block imagenes" alt="mesa para el escritorio">
+                    <img src="../imagenes/mesa.jpg" class="d-block imagenes" alt="mesa para el escritorio">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Escriorio a medida</h5>
                       <p>Mesa de escritorio totalmente laqueada</p>
@@ -227,7 +229,7 @@
 
 <!--Contacto-->
 
-<section id="#contacto" class="mt-5 top-50">
+<section id="contacto" class="mt-5 top-50">
   <main>
     <section class="col">
         <section class="form">
@@ -321,13 +323,13 @@
         
             <div class="social-links mt-3 align-middle">
               <a href="https://www.facebook.com/fcamoblamientosamedida1"><i class="bi bi-facebook"> 
-                <img src="/iconos/facebook.svg" alt="">
+                <img src="../iconos/facebook.svg" alt="">
                 </i></a>
               <a href="https://walink.co/15b628"><i class="bi bi-whatsapp">
-                <img src="/iconos/whatsapp.svg" alt="">
+                <img src="../iconos/whatsapp.svg" alt="">
                 </i></a>
               <a href="https://www.instagram.com/p/CLp7pS8ArAW/"><i class="bi bi-instagram">
-                <img src="/iconos/instagram.svg" alt="">
+                <img src="../iconos/instagram.svg" alt="">
               </i></a>
               
             </div>
