@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Somos una compañia oriunda de la localidad de Rosario, fundada por 2 grandes amigos, que decidieron trascender y dar origen a este proyecto llamado IU Industries. Nos dedicamos a la fabricacion de muebles a medida, reparaciones de muebles y carpinteria general. ">
     <meta name="keywords"   content="muebles, herreria, amoblamiento, reparaciones, living, dormitorio, muebles a medida, carpinteria, Rosario, pueblos.">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    
     <title>Carpinteria Lennon</title>
     <link rel="shortcut icon" href="imagenes/logosinfondo.png">
     <!--Fuentes-->
@@ -14,14 +18,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Pacifico&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Pacifico&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="main.js">
     </head>
 <body>
-
  <!--Menu de navegacion -->
 <div class="container-fluid"> 
     <div class="row">
@@ -30,24 +31,24 @@
                   <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
                     <div class="container-fluid">
                         <a class="navbar-brand letra-nav" href="#">Lennon</a>
-<!--boton para menu desplegable-->
+<!--boton para menu desplegable--> 
             <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse dropdown"
+          data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle-navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
                          <div class="collapse navbar-collapse" id="navbarNav">
                             <div class="mx-auto"></div>
-                              <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#nosotros">Sobre Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#servicios">Servicios</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#galeria">Galeria</a></li>
-                                <li class="nav-item"><a class="nav-link text-white scrollto" href="#contacto">Contacto</a></li>
+                              <ul class="navbar-nav" >
+                                <li class="nav-item"><a class="nav-link text-white " href="#nosotros">Sobre Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
                               </ul>
                          </div>
                     </div>
@@ -64,7 +65,8 @@
         </header>
     </div>
 </div>
-    
+
+
 <!--Seccion de servicios-->
 
   <div class="container-fluid servicios">
@@ -240,7 +242,7 @@
                                     <!--Formulario de contacto--> 
                                     <h2>Contactanos</h2>
 
-                                <div class="container">
+                                <div class="container-sm">
                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.3248162178343!2d-60.65894918525328!3d-32.96883118034085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab9e0e46c1e9%3A0xf11699172e9f772a!2sMariano%20Moreno%202900%2C%20S2001SYH%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1646013771690!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
                             </div>
@@ -296,6 +298,8 @@
     </section>
   </main>
 </section>
+
+
 
 
 <!--Footer con logos y enlaces-->
@@ -360,6 +364,7 @@
       });
     </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>
